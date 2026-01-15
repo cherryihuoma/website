@@ -1,0 +1,84 @@
+*{
+    text-transform: capitalize;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+}
+
+.Container{
+    display: flex;
+    width: 80%;
+    max-height: 900px;
+    height: 500px;
+    background-color: bisque;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+}
+.left-section{
+   width: 40%;
+}
+.left-section img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    color: azure;
+    top: 10rem;
+    padding: 2rem;
+}
+.right-section{
+    padding: 3rem;
+    background-color: bisque;
+}
+.right-section h2{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+button{
+    width: 100%;
+    background-color: thistle;
+    color: sienna;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px;
+    box-shadow: 0px 0px 3px firebrick;
+    cursor: pointer;
+}
+button:hover{
+    background: plum;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"],input[type="password"]{
+    margin-bottom: 2px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.signup{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.form-options-horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.form-options a {
+    color: paleturquoise;
+    text-decoration: none;
+}
